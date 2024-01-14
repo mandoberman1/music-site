@@ -130,7 +130,7 @@
     right: 10px;
 }
 .oboi{
-    background-image: url("/media/фон.jpg");
+    background-image: url("./media/фон.jpg");
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
