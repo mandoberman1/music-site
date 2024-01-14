@@ -1,0 +1,198 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    transition: 1s;
+    cursor: pointer;
+}
+.button:hover{
+    transform: scale(1.7);
+}
+.left{
+    position: relative; 
+    width: 550px;
+    height: 360px;
+}
+.photo-left{
+    width: 250px;
+    height: auto;
+    border-radius: 20%; 
+    position: relative;
+    top: -10px;
+}
+.naz{
+    color: aqua;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.ima-left{
+    color: aqua;
+    letter-spacing: 3px;
+    font-size: 30px;
+    position: absolute;
+    top: -70px;
+    left: 260px;
+    white-space: nowrap;
+}
+.audio-left{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+.text-left{
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 13px;
+    width: 300px;
+    position: absolute;
+    left: 260px;
+    top: -1px;
+}
+.ob-music-left{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 28px;
+    position: absolute; 
+    top: 280px;
+}
+.mini-text-left{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 15   px;
+    position: absolute; 
+    top: 320px; 
+}
+.right{
+    position: relative;
+    width: 550px;
+    height: 360px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+.photo-right{
+    width: 290px;
+    height: 250px;
+    border-radius: 20%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.ima-right{
+    color: aqua;
+    letter-spacing: 3px;
+    font-size: 30px;
+    position: absolute;
+    top: -55px;
+    right: 290px;
+    white-space: nowrap;
+}
+.audio-right{
+    position: absolute;
+    top: 260px;
+    right: 0px;
+}
+.text-right{
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 13px;
+    width: 300px;
+    position: absolute;
+    right: 290px;
+    top: 15px;
+}
+.ob-music-right{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 28px;
+    position: absolute; 
+    top: 290px;
+    right: 10px;
+}
+.mini-text-right{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 15   px;
+    position: absolute; 
+    top: 330px; 
+    right: 10px;
+}
+.oboi{
+    background-image: url("/media/фон.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+#sovet-nazad{
+    position: relative;
+    top: -20px;
+}
+.dalee{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    transition: 1s;
+    cursor: pointer;
+    position: relative;
+    top: 300px;
+    left: 500px;
+}
+.back{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+#mashina-vremeni{
+    height: 200px;
+    position: absolute;
+    top: 10px;
+}
+#mashina-vremeni-a1{
+    position: absolute;
+    top: 230px;
+}
+#mashina-vremeni-a2{
+    position: absolute;
+    top: 260px;
+}
+#mashina-vremeni-a3{
+    position: absolute;
+    top: 300px;
+}
+#DDT{
+    position: absolute;
+    top: px;
+}
+#klava1{
+    position: absolute;
+    top: 260px;
+}
+#klava2{
+    position: absolute;
+    top: 220px;
+}
+#klava3{
+    position: absolute;
+    top: 190px;
+}
